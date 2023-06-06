@@ -268,7 +268,7 @@ async function solveRecaptchaManually(page) {
 
           console.log(`Current username: ${username}`);
 
-          await page.goto("https://gmail.com");
+          await page.goto("https://accounts.google.com");
 
           // Wait for the page to load
           // this will throw if selector is not found
